@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ATSwitchControlThumbView: UIView {
+public class ATSwitchControlThumbView: UIView {
 
     fileprivate(set) var thumbImageView = UIImageView(frame: CGRect.zero)
     

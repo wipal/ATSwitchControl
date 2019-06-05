@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ATSwitchControl: UIControl {
+@IBDesignable
+public class ATSwitchControl: UIControl {
 
     public var animationDelay: Double = 0
     public var animationSpriteWithDamping = CGFloat(0.7)
