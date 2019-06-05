@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/wipal/ATSwitchControl.git", :branch => "master" }
-  spec.source       = { :path => "Sources/"}
+  #spec.source       = { :path => "Sources/"}
 
   spec.ios.exclude_files = 'Sources/Pods'
   spec.source_files  = 'Sources/**/*.swift'
