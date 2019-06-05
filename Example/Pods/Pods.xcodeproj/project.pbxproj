@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		11A7CAA2ACEF977D9C44AE8D3624B79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		4AC07719F96F003B65DEDC7DD5508735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		548F8FE06722945A4977A7C2F1908A02 /* ATSwitchControlThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0208D477BAB00B0D87882E1AE81D00 /* ATSwitchControlThumbView.swift */; };
+		548F8FE06722945A4977A7C2F1908A02 /* ATSwitchControlThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC896E725E845DD34C9EE29B789DEAA0 /* ATSwitchControlThumbView.swift */; };
 		5A6FFCD037004898FB6C7AF11F8379CA /* Pods-ATSwitchControlExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B61BA45D60C2F94AE5620EA781FB41 /* Pods-ATSwitchControlExample-dummy.m */; };
-		790FAD156D89DE89B17402EFA7BF0C21 /* ATSwitchControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A8C493D67678A7A8AFD53903B70C86 /* ATSwitchControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C3E76297DB7A58D6039943AC5C60A43 /* ATSwitchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934CD4869F4DB4C46CF8DDBA9B37D5ED /* ATSwitchControl.swift */; };
+		790FAD156D89DE89B17402EFA7BF0C21 /* ATSwitchControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE870C78B91E9E8304C8BD2A5F22D5C5 /* ATSwitchControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3E76297DB7A58D6039943AC5C60A43 /* ATSwitchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52CCC95BF2AF2F5BBBF63AC9A89469 /* ATSwitchControl.swift */; };
 		BE9A490A81ED7CC508C0AB824F2BBD3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 		E3123091B221FE2515B4758D55E6B82E /* Pods-ATSwitchControlExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F9EA70CD81D6D21A99FEFE16037C02 /* Pods-ATSwitchControlExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70596409C2E8525C194805D048AB51D /* ATSwitchControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B787DE114987EAE8CF0E3AABD5DDC36 /* ATSwitchControl-dummy.m */; };
+		F70596409C2E8525C194805D048AB51D /* ATSwitchControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC83324D7BB4B22C462312935FC09D56 /* ATSwitchControl-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,30 +29,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01672D9D248BE90821813DB0F06C11AF /* ATSwitchControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATSwitchControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		06E54E379161B07632C1928F6046608D /* ATSwitchControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATSwitchControl-prefix.pch"; sourceTree = "<group>"; };
 		0F38570EB5625D9F11A7A3AC0C22B1AC /* Pods-ATSwitchControlExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATSwitchControlExample.release.xcconfig"; sourceTree = "<group>"; };
+		14ECA6620835DD505B7B7EC075B4BBD0 /* ATSwitchControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATSwitchControl-Info.plist"; sourceTree = "<group>"; };
+		202892D13F1EC51951E544356261685D /* ATSwitchControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATSwitchControl.modulemap; sourceTree = "<group>"; };
 		28F9EA70CD81D6D21A99FEFE16037C02 /* Pods-ATSwitchControlExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATSwitchControlExample-umbrella.h"; sourceTree = "<group>"; };
-		3B0208D477BAB00B0D87882E1AE81D00 /* ATSwitchControlThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATSwitchControlThumbView.swift; path = Sources/ATSwitchControl/ATSwitchControl/ATSwitchControlThumbView.swift; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		428A0EB85513584CD53AA646CEE1886D /* ATSwitchControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATSwitchControl.xcconfig; sourceTree = "<group>"; };
 		4367C432EB99908AFA442DDA7368D780 /* Pods-ATSwitchControlExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATSwitchControlExample.modulemap"; sourceTree = "<group>"; };
 		45A41B71EFC6C63C384C31CC04DD4B1F /* Pods-ATSwitchControlExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATSwitchControlExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6B787DE114987EAE8CF0E3AABD5DDC36 /* ATSwitchControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATSwitchControl-dummy.m"; sourceTree = "<group>"; };
 		760E79AD8A53A20729EC49B231A9BFB4 /* Pods_ATSwitchControlExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ATSwitchControlExample.framework; path = "Pods-ATSwitchControlExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AF1CF8C47D6FCF23FD0AE491410F010 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
 		824586B3922892FCD13FC16914117376 /* Pods-ATSwitchControlExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATSwitchControlExample-Info.plist"; sourceTree = "<group>"; };
-		934CD4869F4DB4C46CF8DDBA9B37D5ED /* ATSwitchControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATSwitchControl.swift; path = Sources/ATSwitchControl/ATSwitchControl/ATSwitchControl.swift; sourceTree = "<group>"; };
-		97A8C493D67678A7A8AFD53903B70C86 /* ATSwitchControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATSwitchControl-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC79D2141FD5F622B8115A11ABBAAB1 /* ATSwitchControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATSwitchControl.modulemap; sourceTree = "<group>"; };
-		A426F386CE80FE78AEAC8ADA1022D933 /* ATSwitchControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATSwitchControl-Info.plist"; sourceTree = "<group>"; };
+		A38EFC0BF45B958D7F8D4B3B391BC6C0 /* ATSwitchControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATSwitchControl-prefix.pch"; sourceTree = "<group>"; };
 		ADA844F4E1397BEC5BDB5D2D848AB638 /* Pods-ATSwitchControlExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATSwitchControlExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEE131EFAB1BECB87B07F37ABC1A97D0 /* ATSwitchControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATSwitchControl.xcconfig; sourceTree = "<group>"; };
+		BC83324D7BB4B22C462312935FC09D56 /* ATSwitchControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATSwitchControl-dummy.m"; sourceTree = "<group>"; };
+		BC896E725E845DD34C9EE29B789DEAA0 /* ATSwitchControlThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATSwitchControlThumbView.swift; path = Sources/ATSwitchControl/ATSwitchControl/ATSwitchControlThumbView.swift; sourceTree = "<group>"; };
+		BE870C78B91E9E8304C8BD2A5F22D5C5 /* ATSwitchControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATSwitchControl-umbrella.h"; sourceTree = "<group>"; };
 		D2B61BA45D60C2F94AE5620EA781FB41 /* Pods-ATSwitchControlExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATSwitchControlExample-dummy.m"; sourceTree = "<group>"; };
 		DF774DE69A1E6070B273D1C0652EB693 /* ATSwitchControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATSwitchControl.framework; path = ATSwitchControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E051392EC130AE740ADDE510D00CAF26 /* Pods-ATSwitchControlExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATSwitchControlExample-frameworks.sh"; sourceTree = "<group>"; };
 		E291097EB3661C294EB11D699029C398 /* Pods-ATSwitchControlExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATSwitchControlExample.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF52CCC95BF2AF2F5BBBF63AC9A89469 /* ATSwitchControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATSwitchControl.swift; path = Sources/ATSwitchControl/ATSwitchControl/ATSwitchControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,39 +91,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30AAD9EDA6E7B7C552EB50C9346001D0 /* Pod */ = {
+		203AF9D875541E664CBEFD014FE880E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01672D9D248BE90821813DB0F06C11AF /* ATSwitchControl.podspec */,
-				7AF1CF8C47D6FCF23FD0AE491410F010 /* LICENSE.txt */,
+				6596ABD68964CDD2FD808B0AAD80636B /* ATSwitchControl */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3BD6B27FE215680934BECD5ADE251FDE /* Support Files */ = {
+		6596ABD68964CDD2FD808B0AAD80636B /* ATSwitchControl */ = {
 			isa = PBXGroup;
 			children = (
-				9EC79D2141FD5F622B8115A11ABBAAB1 /* ATSwitchControl.modulemap */,
-				CEE131EFAB1BECB87B07F37ABC1A97D0 /* ATSwitchControl.xcconfig */,
-				6B787DE114987EAE8CF0E3AABD5DDC36 /* ATSwitchControl-dummy.m */,
-				A426F386CE80FE78AEAC8ADA1022D933 /* ATSwitchControl-Info.plist */,
-				06E54E379161B07632C1928F6046608D /* ATSwitchControl-prefix.pch */,
-				97A8C493D67678A7A8AFD53903B70C86 /* ATSwitchControl-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ATSwitchControl";
-			sourceTree = "<group>";
-		};
-		641977AF7EF652536DB53ACC94DCE47B /* ATSwitchControl */ = {
-			isa = PBXGroup;
-			children = (
-				934CD4869F4DB4C46CF8DDBA9B37D5ED /* ATSwitchControl.swift */,
-				3B0208D477BAB00B0D87882E1AE81D00 /* ATSwitchControlThumbView.swift */,
-				30AAD9EDA6E7B7C552EB50C9346001D0 /* Pod */,
-				3BD6B27FE215680934BECD5ADE251FDE /* Support Files */,
+				FF52CCC95BF2AF2F5BBBF63AC9A89469 /* ATSwitchControl.swift */,
+				BC896E725E845DD34C9EE29B789DEAA0 /* ATSwitchControlThumbView.swift */,
+				B0114C249A3F286359EBB1A6946064AF /* Support Files */,
 			);
 			name = ATSwitchControl;
-			path = ../..;
+			path = ATSwitchControl;
 			sourceTree = "<group>";
 		};
 		92BB7A1A8D13F85A7BB19A1E7EE6FC9C /* Pods-ATSwitchControlExample */ = {
@@ -145,20 +127,26 @@
 			path = "Target Support Files/Pods-ATSwitchControlExample";
 			sourceTree = "<group>";
 		};
-		9FBBAF2E96222D60EA7267819467012E /* Development Pods */ = {
+		B0114C249A3F286359EBB1A6946064AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				641977AF7EF652536DB53ACC94DCE47B /* ATSwitchControl */,
+				202892D13F1EC51951E544356261685D /* ATSwitchControl.modulemap */,
+				428A0EB85513584CD53AA646CEE1886D /* ATSwitchControl.xcconfig */,
+				BC83324D7BB4B22C462312935FC09D56 /* ATSwitchControl-dummy.m */,
+				14ECA6620835DD505B7B7EC075B4BBD0 /* ATSwitchControl-Info.plist */,
+				A38EFC0BF45B958D7F8D4B3B391BC6C0 /* ATSwitchControl-prefix.pch */,
+				BE870C78B91E9E8304C8BD2A5F22D5C5 /* ATSwitchControl-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/ATSwitchControl";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9FBBAF2E96222D60EA7267819467012E /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				203AF9D875541E664CBEFD014FE880E1 /* Pods */,
 				0A1A33A858A3AF84A841E66DC3C714CB /* Products */,
 				EC11DE4537C8FA8924BCC62694E069A3 /* Targets Support Files */,
 			);
@@ -414,6 +402,42 @@
 			};
 			name = Release;
 		};
+		3276BF52497EB150F8858A92F0CEE690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428A0EB85513584CD53AA646CEE1886D /* ATSwitchControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATSwitchControl/ATSwitchControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATSwitchControl/ATSwitchControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ATSwitchControl/ATSwitchControl.modulemap";
+				PRODUCT_MODULE_NAME = ATSwitchControl;
+				PRODUCT_NAME = ATSwitchControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -478,42 +502,6 @@
 			};
 			name = Debug;
 		};
-		8BFDB39D01A4FD2ACBA22C4FBE6DC1BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE131EFAB1BECB87B07F37ABC1A97D0 /* ATSwitchControl.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ATSwitchControl/ATSwitchControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ATSwitchControl/ATSwitchControl-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ATSwitchControl/ATSwitchControl.modulemap";
-				PRODUCT_MODULE_NAME = ATSwitchControl;
-				PRODUCT_NAME = ATSwitchControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E929E14E8921B21D536A1E9C7FC2ECE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E291097EB3661C294EB11D699029C398 /* Pods-ATSwitchControlExample.debug.xcconfig */;
@@ -552,9 +540,9 @@
 			};
 			name = Debug;
 		};
-		F76B1920953416FEF98BCC6024FDDEEF /* Release */ = {
+		FFC2D993A29F660688E76ED18F41FF94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE131EFAB1BECB87B07F37ABC1A97D0 /* ATSwitchControl.xcconfig */;
+			baseConfigurationReference = 428A0EB85513584CD53AA646CEE1886D /* ATSwitchControl.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -581,7 +569,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -613,8 +601,8 @@
 		C80663473C7A47AC1910F1A668E632F5 /* Build configuration list for PBXNativeTarget "ATSwitchControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BFDB39D01A4FD2ACBA22C4FBE6DC1BA /* Debug */,
-				F76B1920953416FEF98BCC6024FDDEEF /* Release */,
+				3276BF52497EB150F8858A92F0CEE690 /* Debug */,
+				FFC2D993A29F660688E76ED18F41FF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
