@@ -4,7 +4,11 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "Customizable switch."
   spec.description  = <<-DESC
+  Switch is a pod that contains code for creating customizable UI Switch element.
                    DESC
+
+  spec.homepage     = "https://github.com/wipal"
+
   spec.license      = { :type => "MIT", :file => "LICENSE.txt" }
   spec.author             = "Âu Ngọc Thái"
   spec.platform     = :ios
