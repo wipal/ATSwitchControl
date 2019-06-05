@@ -1,0 +1,6 @@
+framework module ATSwitchControl {
+  umbrella header "ATSwitchControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

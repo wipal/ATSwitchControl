@@ -1,0 +1,16 @@
+PODS:
+  - ATSwitchControl (0.0.1)
+
+DEPENDENCIES:
+  - ATSwitchControl (from `../`)
+
+EXTERNAL SOURCES:
+  ATSwitchControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATSwitchControl: 74d84885ea0744fba028de975bcbd61d67c60a24
+
+PODFILE CHECKSUM: ee662c3ad9e13846d8e7fc4a457a2dedde880972
+
+COCOAPODS: 1.7.0.beta.3
