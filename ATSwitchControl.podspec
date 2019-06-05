@@ -13,12 +13,12 @@ Pod::Spec.new do |spec|
   spec.author             = "Âu Ngọc Thái"
   spec.platform     = :ios
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/wipal/ATSwitchControl.git", :branch => "master" }
-  spec.source       = { :path => "Sources/"}
+  spec.source       = { :git => "https://github.com/wipal/ATSwitchControl.git", :tag => "0.0.1" }
+  #spec.source       = { :path => "/Sources/ATSwitchControl"}
 
   spec.ios.exclude_files = 'Sources/Pods'
   spec.source_files  = 'Sources/**/*.swift'
-  spec.swift_version = '5.0'
+  spec.swift_version = '4.2'
   
   spec.framework  = "UIKit"
 end
