@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author             = "Âu Ngọc Thái"
   spec.platform     = :ios
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/wipal/ATSwitchControl.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/wipal/ATSwitchControl.git", :tag => "0.0.2" }
   #spec.source       = { :path => "/Sources/ATSwitchControl"}
 
   spec.ios.exclude_files = 'Sources/Pods'
