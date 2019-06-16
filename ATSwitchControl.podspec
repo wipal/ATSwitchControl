@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ATSwitchControl"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Customizable switch."
   spec.description  = <<-DESC
   Switch is a pod that contains code for creating customizable UI Switch element.
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.exclude_files = 'Sources/Pods'
   spec.source_files  = 'Sources/**/*.swift'
-  spec.swift_version = '4.2'
+  spec.swift_version = '5.0'
   
   spec.framework  = "UIKit"
 end
